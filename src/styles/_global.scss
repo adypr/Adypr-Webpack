@@ -1,0 +1,15 @@
+$primary: rgb(255, 0, 212);
+$secondary: rgb(93, 214, 93);
+
+h1 {
+    color: $primary;
+    font-family: Fredoka, Tahoma, Geneva, Verdana, sans-serif;
+}
+.container {
+    display: grid;
+    justify-content: center;
+& p {
+    color: $secondary;
+    background-image: url("../images/img/2021-06-24_234555.png");
+}
+}
